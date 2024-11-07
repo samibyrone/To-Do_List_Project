@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My To-Do List Application</title>
+    <link rel="stylesheet" href="To-Do.css">
+    <script src="To-Do.js" defer></script>
+</head>
+<body>
+    <div class="main_wrapper">
+        <header>
+            <div class="navBar">
+                <h1>To-Do List</h1>
+                <p>To-Do Task</p>
+                <form class="search-todo">
+                    <input type="text" placeholder="search to-do...."/>
+                </form>
+            </div>
+        </header>
+        <div class="to-do_list">
+            <h2>My To-Do List</h2>
+           <ul>
+                <li>
+                    <input type="checkbox">
+                    <span class="list">Going for Vacation</span>
+                    <img  class="delete" src="./images/delete_icon.png" alt="my delete button">
+                </li>
+               <li>
+                   <input type="checkbox">
+                   <span class="list">Java Dietel Assignment</span>
+                   <img  class="delete" src="./images/delete_icon.png" alt="my delete button">
+               </li>
+               <li>
+                   <input type="checkbox">
+                   <span class="list">Bokku Bread</span>
+                   <img  class="delete" src="./images/delete_icon.png" alt="my delete button">
+               </li>
+               <li>
+                   <input type="checkbox">
+                   <span class="list">Going for Brain Break</span>
+                   <img  class="delete" src="./images/delete_icon.png" alt="my delete button">
+               </li>
+               <li>
+                   <input type="checkbox">
+                   <span class="list">Catch up with the 6pm Train</span>
+                   <img  class="delete" src="./images/delete_icon.png" alt="my delete button">
+               </li>
+            </ul>
+        </div>
+        <form class="add-todo">
+            <input type="text" id="addTodo" placeholder="Add new To-Do..."/>
+            <button onclick="AddTodoList()">Add</button>
+        </form>
+    </div>
+</body>
+</html>
