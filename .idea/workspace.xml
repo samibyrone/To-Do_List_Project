@@ -36,7 +36,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/DELL USER/WebstormProjects/To-Do_List_Project/images",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -67,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730974964528</updated>
-      <workItem from="1730974965602" duration="17337000" />
+      <workItem from="1730974965602" duration="19997000" />
     </task>
     <servers />
   </component>
